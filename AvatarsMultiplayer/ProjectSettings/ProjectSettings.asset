@@ -141,7 +141,8 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 613f773ab1c35f74798398f139b45dc8, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -924,11 +925,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 4eaccec7-f570-45b2-ab0c-38afbbcdbf5e
+  cloudProjectId: bbc42e4f-28e6-496c-8c91-9b8d0e0fdda6
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: AvatarsMultiplayer
-  organizationId: leiner117
+  organizationId: comunidadmoviles
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
