@@ -1,6 +1,6 @@
 using System.Collections;
-using UnityEngine;
 using Unity.Netcode;
+using UnityEngine;
 
 public class NetworkPlayer : NetworkBehaviour
 {
@@ -64,6 +64,7 @@ public class NetworkPlayer : NetworkBehaviour
         // Mano izquierda
         if (avLeft && leftControllerTransform)
         {
+            UnityEngine.Debug.Log("MANO IZQUIERDA");
             avLeft.rotation = leftControllerTransform.rotation * avatarLeftRotationOffset;
             avLeft.position = leftControllerTransform.position +
                               avatarLeftPositionOffset.x * leftControllerTransform.right +
@@ -74,6 +75,7 @@ public class NetworkPlayer : NetworkBehaviour
         // Mano derecha
         if (avRight && rightControllerTransform)
         {
+            UnityEngine.Debug.Log("MANO DERECHA");
             avRight.rotation = rightControllerTransform.rotation * avatarRightRotationOffset;
             avRight.position = rightControllerTransform.position +
                                avatarRightPositionOffset.x * rightControllerTransform.right +
